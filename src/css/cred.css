@@ -1,0 +1,229 @@
+/* CSS for the credentials */
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #eeeeee;
+}
+
+.background {
+  width: 90%;
+  height: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  left: 50%;
+  top: 50%;
+  background-color: #c0fefc !important;
+}
+
+.background .shape {
+  height: 100px !important;
+  width: 100px !important;
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* .shape:first-child {
+  background: linear-gradient(#1845ad, #23a2f6);
+  left: -80px;
+  top: -80px;
+}
+
+.shape:last-child {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  right: -30px;
+  bottom: -80px;
+} */
+
+.form_cred {
+  height: 520px;
+  width: 400px;
+  background-color: rgba(0, 69, 139, 0.5);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 30%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(0, 69, 139, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 40px 35px;
+}
+
+.form_cred_s {
+  height: 700px !important;
+  position: absolute;
+  top: 50% !important;
+  left: 70% !important;
+  padding: 5px 35px;
+}
+
+.form_cred * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.form_cred h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: center;
+}
+
+#signuphere {
+  line-height: 0px !important;
+  font-size: 26px !important;
+}
+
+.label_cred {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mod_lbl {
+  margin-top: 20px !important;
+}
+
+.mod_inp {
+  margin-top: 6px !important;
+  height: 45px !important;
+}
+
+.input_cred {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: #e5e5e5;
+}
+
+.button_cred {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sign_img {
+  width: 30%;
+  position: absolute;
+  top: 26%;
+  left: 15%;
+  border-radius: 50%;
+}
+
+#login_img {
+  width: 23%;
+  position: absolute;
+  top: 22%;
+  left: 60%;
+  border-radius: 50%;
+}
+
+#choice_back {
+  width: 78%;
+  height: 680px;
+  background-color: #c0fefc;
+  position: absolute;
+  left: 12.5%;
+  top: 12%;
+  /* text-align: center; */
+  border-radius: 7px;
+}
+
+#user_choice_img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  /* position: absolute;
+	left: 14%;
+	top: 8%; */
+}
+#hospital_choice_img {
+  width: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  /* position: absolute;
+	left: 14%;
+	top: 18%; */
+}
+
+.form-check {
+  /* cursor: pointer; */
+  width: 17% !important;
+}
+
+.check_div{
+	position: absolute;
+	left: 12%;
+	top: 6%;
+}
+
+.cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.formHospital{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.coordinates{
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+/* .social {
+			margin-top: 30px;
+			display: flex;
+		}
+		
+		.social div {
+			background: red;
+			width: 150px;
+			border-radius: 3px;
+			padding: 5px 10px 10px 5px;
+			background-color: rgba(255, 255, 255, 0.27);
+			color: #eaf0fb;
+			text-align: center;
+		}
+		
+		.social div:hover {
+			background-color: rgba(255, 255, 255, 0.47);
+		}
+		
+		.social .fb {
+			margin-left: 25px;
+		}
+		
+		.social i {
+			margin-right: 4px;
+		} */
